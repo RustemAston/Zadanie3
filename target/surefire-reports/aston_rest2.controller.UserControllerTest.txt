@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: aston_rest2.controller.UserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.487 s <<< FAILURE! - in aston_rest2.controller.UserControllerTest
+create  Time elapsed: 0.454 s  <<< ERROR!
+java.lang.IllegalStateException: Could not initialize plugin: interface org.mockito.plugins.MockMaker (alternate: null)
+Caused by: java.lang.IllegalStateException: Internal problem occurred, please report it. Mockito is unable to load the default implementation of class that is a part of Mockito distribution. Failed to load interface org.mockito.plugins.MockMaker
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.mockito.exceptions.base.MockitoInitializationException: 
+
+It seems like you are running Mockito with an incomplete or inconsistent class path. Byte Buddy could not be loaded.
+
+Byte Buddy is available on Maven Central as 'net.bytebuddy:byte-buddy' with the module name 'net.bytebuddy'.
+For the inline mock maker, 'net.bytebuddy:byte-buddy-agent' with the module name 'net.bytebuddy.agent' is also required.
+Normally, your IDE or build tool (such as Maven or Gradle) should take care of your class path completion but 
+Caused by: java.lang.NoClassDefFoundError: net/bytebuddy/utility/GraalImageCode
+Caused by: java.lang.ClassNotFoundException: net.bytebuddy.utility.GraalImageCode
+
+getAllUsers  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Could not initialize plugin: interface org.mockito.plugins.MockMaker (alternate: null)
+Caused by: java.lang.IllegalStateException: Internal problem occurred, please report it. Mockito is unable to load the default implementation of class that is a part of Mockito distribution. Failed to load interface org.mockito.plugins.MockMaker
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.mockito.exceptions.base.MockitoInitializationException: 
+
+It seems like you are running Mockito with an incomplete or inconsistent class path. Byte Buddy could not be loaded.
+
+Byte Buddy is available on Maven Central as 'net.bytebuddy:byte-buddy' with the module name 'net.bytebuddy'.
+For the inline mock maker, 'net.bytebuddy:byte-buddy-agent' with the module name 'net.bytebuddy.agent' is also required.
+Normally, your IDE or build tool (such as Maven or Gradle) should take care of your class path completion but 
+Caused by: java.lang.NoClassDefFoundError: net/bytebuddy/utility/GraalImageCode
+Caused by: java.lang.ClassNotFoundException: net.bytebuddy.utility.GraalImageCode
+
+updateUser  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Could not initialize plugin: interface org.mockito.plugins.MockMaker (alternate: null)
+Caused by: java.lang.IllegalStateException: Internal problem occurred, please report it. Mockito is unable to load the default implementation of class that is a part of Mockito distribution. Failed to load interface org.mockito.plugins.MockMaker
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.mockito.exceptions.base.MockitoInitializationException: 
+
+It seems like you are running Mockito with an incomplete or inconsistent class path. Byte Buddy could not be loaded.
+
+Byte Buddy is available on Maven Central as 'net.bytebuddy:byte-buddy' with the module name 'net.bytebuddy'.
+For the inline mock maker, 'net.bytebuddy:byte-buddy-agent' with the module name 'net.bytebuddy.agent' is also required.
+Normally, your IDE or build tool (such as Maven or Gradle) should take care of your class path completion but 
+Caused by: java.lang.NoClassDefFoundError: net/bytebuddy/utility/GraalImageCode
+Caused by: java.lang.ClassNotFoundException: net.bytebuddy.utility.GraalImageCode
+
+deleteUser  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Could not initialize plugin: interface org.mockito.plugins.MockMaker (alternate: null)
+Caused by: java.lang.IllegalStateException: Internal problem occurred, please report it. Mockito is unable to load the default implementation of class that is a part of Mockito distribution. Failed to load interface org.mockito.plugins.MockMaker
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.mockito.exceptions.base.MockitoInitializationException: 
+
+It seems like you are running Mockito with an incomplete or inconsistent class path. Byte Buddy could not be loaded.
+
+Byte Buddy is available on Maven Central as 'net.bytebuddy:byte-buddy' with the module name 'net.bytebuddy'.
+For the inline mock maker, 'net.bytebuddy:byte-buddy-agent' with the module name 'net.bytebuddy.agent' is also required.
+Normally, your IDE or build tool (such as Maven or Gradle) should take care of your class path completion but 
+Caused by: java.lang.NoClassDefFoundError: net/bytebuddy/utility/GraalImageCode
+Caused by: java.lang.ClassNotFoundException: net.bytebuddy.utility.GraalImageCode
+
